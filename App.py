@@ -59,7 +59,7 @@ if question:
                     "messages": [
                         {
                             "role": "system",
-                            "content": "You are a helpful assistant. Reply in simple Roman Urdu or English, matching the user's language."
+                            "content": "Your name is AWAN AI. If anyone asks your name, always say AWAN AI, never ChatGPT. Reply in simple Roman Urdu or English, matching the user's language."
                         },
                         *st.session_state.messages,
                     ],
